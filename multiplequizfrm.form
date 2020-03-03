@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="b5lbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="incorrectlbl" min="-2" pref="65" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="q4lbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="ansinputlbl4" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="a5lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="c5lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="calbtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="ans4txt" alignment="0" min="-2" pref="53" max="-2" attributes="0"/>
+                                              <Component id="correctlbl" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                              <Component id="perclbl" min="-2" pref="81" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                                      <Component id="q5lbl2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="a4lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="b4lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="b1lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="c1lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="a1lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="d1lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="a2lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="c2lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="d2lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="b2lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="a3lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="c3lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="d3lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="b3lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="q1lbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="ansinputlbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="ans1txt" min="-2" pref="55" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="q3lbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="ansinputlbl3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="ans3txt" min="-2" pref="57" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="q2lbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="ansinputlbl2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="ans2txt" min="-2" pref="50" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="q5lbl" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="ansinputlbl5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="ans5txt" min="-2" pref="55" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="q4lbl2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="q1lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ansinputlbl" alignment="3" max="32767" attributes="0"/>
+                          <Component id="ans1txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="a1lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="b1lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="c1lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="d1lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="q2lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ansinputlbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ans2txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="a2lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="b2lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="c2lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="d2lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="q3lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ansinputlbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ans3txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="a3lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="b3lbl" min="-2" pref="14" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="c3lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="d3lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="q4lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ansinputlbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ans4txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="q4lbl2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="a4lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="b4lbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="q5lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ans5txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ansinputlbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="q5lbl2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="correctlbl" alignment="1" min="-2" pref="14" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="a5lbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                      <Component id="b5lbl" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="c5lbl" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Component id="perclbl" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="calbtn" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="250" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="incorrectlbl" min="-2" pref="24" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="q1lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Question 1 : An interpreter does everything except... "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="q2lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Question 2 : The number -98.556 can be stored as a :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="q3lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Question 3 : What source package must you add in order to create a GUI?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="q4lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Question 4 : int number 1 = 5; int number2 = 32; int number3 = 16; "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="q5lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Question 5 : What does the following line of code do? "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ansinputlbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Answer: "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ansinputlbl2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Answer:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ansinputlbl3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Answer:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ansinputlbl4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Answer :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ansinputlbl5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Answer :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="a1lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. Translate program one line at a time"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="b1lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. Generates an error message after scanning the entire program "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="c1lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3.Is used by programming languages like Python and Ruby"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="d1lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="4. Takes less time to analyze source code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ans1txt">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ans1txtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="a2lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. Integer"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="b2lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. String "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="c2lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3. Boolean"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="d2lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="4. Double"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ans2txt">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ans2txtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="a3lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. Java Interface"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="b3lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. Java Panel Form"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="c3lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3. Java Frame Form"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="d3lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="4. Java Class"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ans3txt">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ans3txtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="q4lbl2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" number1 != number2 "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="a4lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. True "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="b4lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. False"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ans4txt">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ans4txtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="q5lbl2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="percCorrect = ((double)totalCorrect/(double)totalRolls)*100;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="a5lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. Rounds the number to two decimal places"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="b5lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. Doubles the value of both variables"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="c5lbl">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="3. Tells Java to treat the variables as doubles "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ans5txt">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ans5txtActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="calbtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Calculate Results"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calbtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="correctlbl">
+            </Component>
+            <Component class="javax.swing.JLabel" name="incorrectlbl">
+            </Component>
+            <Component class="javax.swing.JLabel" name="perclbl">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
